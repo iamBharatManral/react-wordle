@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  background: #6d6027; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #d3cbb8,
+    #6d6027
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #d3cbb8,
+    #6d6027
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+h1 {
+  color: goldenrod;
+  background: white;
+  padding: 1rem;
+  border-radius: 5px;
+}
+.App {
+  margin: 4rem auto;
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  justify-content: center;
+  align-items: center;
+  width: 60vw;
+  min-height: 60%;
+}
+
+.board {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+input {
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  outline: 0;
+  font-size: 2rem;
+  color: brown;
+}
+
+.not-valid {
+  border: 2px solid red;
+}
+
+.valid {
+  border: 2px solid green;
+}
+
+.message {
+  font-size: 1.2rem;
+  background-color: bisque;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  color: green;
+  width: max-content;
+  font-weight: bold;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
